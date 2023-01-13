@@ -1,0 +1,4 @@
+#########  Para que funcione en local #########
+Archivo Router.php:
+  ● Comentar la linea 22 $currentUrl = $_SERVER['REQUEST_URI'] === "" ? '/' : $_SERVER['REQUEST_URI'];
+  ● Descomentar la linea 23 $currentUrl = $_SERVER['PATH_INFO'] ?? '/';
